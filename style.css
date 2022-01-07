@@ -1,0 +1,168 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.mission {
+  display: flex;
+  margin-bottom: 50px;
+  padding: 3%;
+}
+
+.intro {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.intro img {
+  width: 90%;
+}
+
+#web-dev-exp {
+  font-family: 'Prata', serif;
+  border-left: 4px solid;
+  border-image: linear-gradient(180deg, lightsalmon, tomato);
+  border-image-slice: 1;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.empty-space {
+  margin-left: 30px;
+  margin-top: 100px;
+}
+
+.orange {
+  color: orange;
+}
+
+.click-button {
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(45deg, lightsalmon, tomato);
+  padding: 10px 20px;
+  border-radius: 7%;
+  font-weight: 700;
+}
+
+.space {
+  margin-bottom: 4%;
+}
+.space-between {
+  margin-top: 6%;
+}
+#mid {
+  text-align: center;
+}
+
+
+.parent {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.child1 {
+  width: 390px;
+  height: 390px;
+  padding: 20px;
+  background-color: rgba(174, 184, 122, 0.493);
+  margin-right: 20px;
+  border-radius: 10%;
+}
+.child1 img {
+  width: 30%;
+}
+.child2 {
+  width: 390px;
+  height: 390px;
+  padding: 20px;
+  margin-right: 20px;
+  background-color: rgba(195, 216, 135, 0.89);
+  border-radius: 10%;
+}
+
+.child2 img {
+  width: 30%;
+}
+
+.child3 {
+  width: 390px;
+  height: 390px;
+  padding: 20px;
+  background-color: rgba(95, 158, 160, 0.705);
+  border-radius: 10%;
+}
+.child3 img {
+  width: 30%;
+}
+
+.side-image {
+  background-image: url(./images/shapes/dream-bg.png);
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.ongoing-mission {
+  display: flex;
+  margin-bottom: 50px;
+}
+.bc {
+  background-image: url(./images/shapes/shape-1.png);
+
+  background-position: right;
+  background-size: 22%;
+
+  background-repeat: no-repeat;
+}
+
+.child4{
+  width:40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: 10px 10px 40px gray;  
+  border-radius: 10px;
+  border-left: 7px solid;
+  background-color: cyan;
+ 
+}
+.exp{
+  color: rgb(20, 10, 158);
+  text-align: center;
+}
+.child5{
+  color: blueviolet;
+}
+.child6{
+  color: rgb(78, 49, 158);
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+}
+.end-part {
+  border-top: 20%;
+  border-bottom: 20%;
+}
+footer h2 {
+  font-size: 35px;
+  color: white;
+  padding-top: 25px;
+}
+.end-color {
+  color: rgb(192, 32, 32);
+}
+#end-font {
+  font-family: "Dancing Script", cursive;
+}
+footer p {
+  color: antiquewhite;
+  padding-bottom: 25px;
+}
+
+
